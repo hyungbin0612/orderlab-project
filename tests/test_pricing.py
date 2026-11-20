@@ -14,4 +14,3 @@ def test_subtotal_zero():
 def test_subtotal_negative():
     with pytest.raises(ValueError):
         subtotal(-100, 2)
-
