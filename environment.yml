@@ -1,0 +1,10 @@
+name: orderlab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - ruff
+  - pytest
+  - pytest-cov
+  - fastapi
+  - httpx
