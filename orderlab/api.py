@@ -26,4 +26,3 @@ def create_app() -> FastAPI:
         return {"id": order_id, "subtotal": store[order_id]}
 
     return app
-
